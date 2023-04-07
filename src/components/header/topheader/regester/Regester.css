@@ -1,0 +1,29 @@
+.btn{
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--btn-color);
+    padding: 16px 44px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: white;
+}
+.sign{
+    background: transparent;
+}
+
+/* Start Responsive Style */
+@media screen and (max-width: 1268px) {
+    .btn{
+        font-size: 14px;
+        padding: 12px 22px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .header__btnbox{
+        display: none;
+    }
+}
+/* End Responsive Style */

@@ -1,0 +1,43 @@
+@import url("./assets/reset/reset.css");
+@import url("./assets/colors/color.css");
+@font-face {
+  font-family: "manrope";
+  src: url("./assets/fonts/Manrope-Medium.ttf") format("truetype");
+}
+.app {
+  background: var(--background-color);
+  font-family: "manrope";
+}
+.title {
+  background: -webkit-linear-gradient(#ae67fa, #f49867);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+  font-size: 60px;
+  line-height: 1.35;
+}
+
+/* Start Responsive Style */
+@media screen and (max-width: 1268px) {
+    .title{
+      font-size: 42px;
+    }
+}
+@media screen and (max-width: 992px) {
+  .title{
+    font-size: 36px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .title{
+    font-size: 32px;
+  }
+}
+@media screen and (max-width: 568px) {
+  .title{
+    font-size: 26px;
+    text-align: center;
+  }
+  
+}
+/* End Responsive Style */

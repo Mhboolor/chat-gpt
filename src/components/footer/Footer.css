@@ -1,0 +1,11 @@
+.footer{
+    background: #031B34;
+    color: white;
+}
+.footer__copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    padding-bottom: 30px;
+}

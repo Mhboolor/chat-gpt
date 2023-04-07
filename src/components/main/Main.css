@@ -1,0 +1,25 @@
+.main{
+    padding: 0 135px;
+}
+/* Start Responsive Style */
+@media screen and (max-width: 1268px) {
+    .main{
+        padding: 0 100px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .main{
+        padding: 0 80px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .main{
+        padding: 0 50px;
+    }
+}
+@media screen and (max-width: 568px) {
+    .main{
+        padding: 0 25px;
+    }
+}
+/* End Responsive Style */

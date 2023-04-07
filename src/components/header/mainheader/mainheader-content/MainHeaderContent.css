@@ -1,0 +1,167 @@
+.mainheadercontent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mainheadercontent__text {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--text-color);
+  line-height: 1.35;
+  margin: 35px 0;
+}
+.mainheadercontent__email-box {
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mainheadercontent__email-inp {
+    background-color: #052d56;
+    padding: 22px 0;
+    flex: 1;
+    border: none;
+}
+.mainheadercontent__email-inp::placeholder {
+  color: #3d6184;
+  font-size: 20px;
+  font-weight: 400;
+  padding :22px 0px 22px 32px;
+}
+.mainheadercontent__email-btn {
+    padding: 20px 26px ;
+    border-start-start-radius: 0;
+    border-end-start-radius: 0;
+}
+.mainheadercontent__user-box {
+    display: flex;
+    align-items: center;
+}
+.user-box__img {
+    display: flex;
+    align-items: center;
+}
+.user-box__img__item {
+    width: 36px;
+    height: 36px;
+    margin: 0 -12px 0px 0px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.user-box__img__item:last-child{
+    background-color: #13DED2;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 8px;
+    font-weight: 800;
+    margin-right: 14px;
+}
+.user-box__text {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}
+
+/* Start Responsive Style */
+@media screen and (max-width: 1268px) {
+    .mainheadercontent__text{
+        font-size: 16px;
+    }
+    .mainheadercontent__email-inp{
+        padding: 10.5px 0;
+    }
+    .mainheadercontent__email-inp::placeholder{
+        font-size: 14px;
+    }
+    .mainheadercontent__email-btn{
+        padding: 11px 13px;
+        font-size: 12px;
+        text-align: center;
+    }
+    .user-box__img__item{
+        width: 30px;
+        height: 30px;
+    }
+    .mainheadercontent__image{
+        width: 410px;
+        height: 550px;
+    }
+    
+}
+@media screen and (max-width: 992px) {
+    .mainheadercontent__text{
+        font-size: 14px;
+    }
+    .mainheadercontent__email-inp{
+        padding: 13px 0;
+    }
+    .mainheadercontent__email-inp::placeholder{
+        font-size: 12px;
+    }
+    .mainheadercontent__email-btn{
+        padding: 15px 12px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .user-box__img__item{
+        width: 26px;
+        height: 26px;
+    }
+    .user-box__text{
+        font-size: 10px;
+    }
+    .mainheadercontent__image{
+        width: 410px;
+        height: 550px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .mainheadercontent__text{
+        font-size: 14px;
+    }
+    .mainheadercontent__email-inp{
+        padding: 13px 0;
+    }
+    .mainheadercontent__email-inp::placeholder{
+        font-size: 12px;
+    }
+    .mainheadercontent__email-btn{
+        padding: 10px 12px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .user-box__img__item{
+        width: 26px;
+        height: 26px;
+    }
+    .user-box__text{
+        font-size: 10px;
+    }
+    .mainheadercontent__image{
+        width: 300px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 568px) {
+    .mainheadercontent{
+        flex-direction: column-reverse;
+    }
+    .mainheadercontent__text{
+        text-align: center;
+    }
+    .mainheadercontent__email-btn{
+        padding: 16px 12px;
+        font-size: 10px;
+        text-align: center;
+    }
+    .mainheadercontent__image{
+        width: 250px;
+        height: 500px;
+    }
+}
+/* End Responsive Style */

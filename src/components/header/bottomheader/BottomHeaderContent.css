@@ -1,0 +1,29 @@
+.bottomheadercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 65px 0 125px 0;
+}
+.bottomheadercontent__item{
+    margin: 0 22px ;
+    cursor: pointer;
+}
+
+/* Start Responsive Style */
+@media screen and (max-width: 768px) {
+    .bottomheadercontent__item{
+        margin: 0 12px ;
+        width: 90px;
+    }
+}
+@media screen and (max-width: 568px) {
+    .bottomheadercontent__item{
+        width: 45px;
+    }
+}
+@media screen and (max-width: 368px) {
+    .bottomheadercontent__item{
+        width: 35px;
+    }
+}
+/* End Responsive Style */
