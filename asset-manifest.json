@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/chat-gpt/static/css/main.c2920eb2.css",
+    "main.js": "/chat-gpt/static/js/main.d6fecf50.js",
+    "static/media/Header-Illustration.png": "/chat-gpt/static/media/Header-Illustration.74403863167c7d6237f8.png",
+    "static/media/Feature Image.png": "/chat-gpt/static/media/Feature Image.52ff65db33338aba6822.png",
+    "static/media/blog1.png": "/chat-gpt/static/media/blog1.990eb0970c01534f0924.png",
+    "static/media/blog3.png": "/chat-gpt/static/media/blog3.1c6452188a984a2075ac.png",
+    "static/media/blog4.png": "/chat-gpt/static/media/blog4.e98a7bd45431a1d301e3.png",
+    "static/media/Manrope-Medium.ttf": "/chat-gpt/static/media/Manrope-Medium.7e416a42443e06ed7d57.ttf",
+    "static/media/blog5.png": "/chat-gpt/static/media/blog5.8be863d40b3f87ccb07a.png",
+    "static/media/blog2.png": "/chat-gpt/static/media/blog2.b49296eeae46273a7202.png",
+    "index.html": "/chat-gpt/index.html",
+    "main.c2920eb2.css.map": "/chat-gpt/static/css/main.c2920eb2.css.map",
+    "main.d6fecf50.js.map": "/chat-gpt/static/js/main.d6fecf50.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2920eb2.css",
+    "static/js/main.d6fecf50.js"
+  ]
+}
