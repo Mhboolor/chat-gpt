@@ -21,6 +21,7 @@
     padding: 22px 0;
     flex: 1;
     border: none;
+    z-index: 99;
 }
 .mainheadercontent__email-inp::placeholder {
   color: #3d6184;
@@ -32,6 +33,7 @@
     padding: 20px 26px ;
     border-start-start-radius: 0;
     border-end-start-radius: 0;
+    z-index: 99;
 }
 .mainheadercontent__user-box {
     display: flex;

@@ -13,6 +13,7 @@
   border-radius: 50%;
   filter: blur(500px);
   -webkit-filter: blur(300px);
+  z-index: 1;
 }
 .header::after {
   content: "";
@@ -25,6 +26,7 @@
   border-radius: 50%;
   filter: blur(500px);
   -webkit-filter: blur(200px);
+  z-index: 1;
 }
 .header__top {
   display: flex;
